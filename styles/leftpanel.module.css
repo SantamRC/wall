@@ -43,8 +43,6 @@
   width: 50px;
   height: 28px;
 
-  /* Activities/Sold_10% */
-
   background: rgba(248, 169, 16, 0.1);
   border-radius: 44px;
 }
@@ -58,9 +56,6 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 100%;
-  /* identical to box height, or 12px */
-
-  /* Activities/Sold */
 
   color: #ffc148;
 }
@@ -75,7 +70,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 19px;
-  /* identical to box height, or 168% */
 
   color: #ffffff;
 }
@@ -85,9 +79,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  /* identical to box height, or 167% */
-
-  /* Text/Medium */
 
   color: #a2a2a2;
 }

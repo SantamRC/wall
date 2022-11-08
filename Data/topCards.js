@@ -24,7 +24,7 @@ const cards = [
     ethValue: 98.5,
     time: "10 days ago",
     xp: "+200XP",
-    color: "#FFC148",
+    color: "#44FFC8",
   },
   {
     name: "First NFT bought",
@@ -33,7 +33,7 @@ const cards = [
     ethValue: 98.5,
     time: "10 days ago",
     xp: "+10XP",
-    color: "#FFC148",
+    color: "#4BDFFF",
   },
   {
     name: "Paper Handed",
@@ -42,7 +42,7 @@ const cards = [
     ethValue: 98.5,
     time: "10 days ago",
     xp: "+200XP",
-    color: "#FFC148",
+    color: "#44FFC8",
   },
 ];
 

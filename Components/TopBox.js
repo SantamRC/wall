@@ -21,7 +21,12 @@ function TopBox() {
               <Image src={`/high${index + 1}.png`} height={50} width={50} />
               <div className={styles.highlightCardTopTextBox}>
                 <p className={styles.highTopText}>{card.name}</p>
-                <p className={styles.highTopTextColor}>{card.colorText}</p>
+                <p
+                  className={styles.highTopTextColor}
+                  style={{ color: card.color }}
+                >
+                  {card.colorText}
+                </p>
               </div>
             </div>
 
