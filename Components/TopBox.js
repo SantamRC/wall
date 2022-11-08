@@ -28,7 +28,7 @@ function TopBox() {
             <div className={styles.middleBox}>
               <p className={styles.ethName}>{card.ethName}</p>
               <div className={styles.flexBox}>
-                <p>{card.ethValue}</p>
+                <p className={styles.ethValue}>{card.ethValue}</p>
                 <Image src="/ethereum.svg" height={15} width={15} />
               </div>
             </div>
