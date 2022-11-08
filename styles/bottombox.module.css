@@ -33,6 +33,39 @@
   color: #fafafa;
 }
 
+.months {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 6px;
+  gap: 4px;
+
+  position: absolute;
+  width: 69px;
+  height: 22px;
+
+  margin-top: 10rem;
+  margin-left: 6rem;
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+
+  border-radius: 31px;
+}
+
+.monthText {
+  width: 57px;
+  height: 20px;
+
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
 .bottomCardMiddle {
   display: flex;
   flex-direction: row;

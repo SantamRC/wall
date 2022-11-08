@@ -7,6 +7,7 @@ const cards = [
     time: "2 months ago",
     xp: "+200XP",
     color: "#4BDFFF",
+    gradient: "rgba(37, 181, 213, 0.1)",
   },
   {
     name: "Best Flip",
@@ -16,6 +17,7 @@ const cards = [
     time: "10 days ago",
     xp: "+150XP",
     color: "#FFC148",
+    gradient: "rgba(248, 169, 16, 0.1)",
   },
   {
     name: "Should have sold",
@@ -25,6 +27,7 @@ const cards = [
     time: "10 days ago",
     xp: "+200XP",
     color: "#44FFC8",
+    gradient: "rgba(11, 241, 173, 0.1)",
   },
   {
     name: "First NFT bought",
@@ -34,6 +37,7 @@ const cards = [
     time: "10 days ago",
     xp: "+10XP",
     color: "#4BDFFF",
+    gradient: "rgba(37, 181, 213, 0.1)",
   },
   {
     name: "Paper Handed",
@@ -43,6 +47,7 @@ const cards = [
     time: "10 days ago",
     xp: "+200XP",
     color: "#44FFC8",
+    gradient: "rgba(11, 241, 173, 0.1)",
   },
 ];
 

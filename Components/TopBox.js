@@ -9,16 +9,16 @@ function TopBox() {
       <h2 className={styles.highlightHeading}>Highlights</h2>
       <div className={styles.cardsBox}>
         {cards.map((card, index) => (
-          <div key={card.name} className={styles.card}>
-            <div
-              className={styles.circle}
-              style={{
-                background: "rgba(37, 181, 213, 0.1)",
-              }}
-            />
-
+          <div
+            key={card.name}
+            className={styles.card}
+            style={{
+              background: `linear-gradient(to bottom right, ${card.gradient}, #111111)`,
+            }}
+          >
             <div className={styles.highlightCardTop}>
               <Image src={`/high${index + 1}.png`} height={50} width={50} />
+              
               <div className={styles.highlightCardTopTextBox}>
                 <p className={styles.highTopText}>{card.name}</p>
                 <p

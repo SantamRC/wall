@@ -14,6 +14,12 @@ function BottomBox() {
             height={100}
             width={100}
           />
+          <div className={styles.months}>
+            <p className={styles.monthText}>3 Months</p>
+          </div>
+
+          
+
           <p className={styles.bottomCardName}>{item}</p>
           <div className={styles.bottomCardMiddle}>
             <p className={styles.bottomCardName}>Bought</p>
