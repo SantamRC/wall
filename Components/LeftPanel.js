@@ -16,7 +16,15 @@ function LeftPanel() {
     <div className={styles.leftPanel}>
       <div className={styles.topBox}>
         <div className={styles.topBoxLeft}>
-          <Image src="/avatar.png" width={70} height={70} />
+          <div className={styles.avatar}>
+            <Image
+              src="/avatar.png"
+              width={70}
+              height={70}
+              className={styles.img}
+            />
+          </div>
+
           <div className={styles.topBoxLvl}>
             <p className={styles.lvl}>LVL 2</p>
           </div>
