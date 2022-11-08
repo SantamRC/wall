@@ -1,0 +1,173 @@
+.highlightHeading {
+  width: 70px;
+  height: 20px;
+
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #a2a2a2;
+}
+
+.cardsBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  isolation: isolate;
+
+  width: 12rem;
+  height: 10rem;
+  padding: 10px;
+
+  background: #111111;
+  border-radius: 16px;
+}
+
+.circle {
+  position: relative;
+  width: 174px;
+  height: 174px;
+  left: -58px;
+  top: -69px;
+
+  /* Activities/Bought_10% */
+
+  background: rgba(37, 181, 213, 0.1);
+  filter: blur(25px);
+}
+
+.highlightCardTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  height: 40px;
+  margin: 5px;
+}
+
+.highTopText {
+  width: 79px;
+  height: 20px;
+
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #fafafa;
+}
+
+.highTopTextColor {
+  width: 69px;
+  height: 20px;
+
+  /* 12/Title5Regular */
+
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  /* Activities/Bought */
+
+  color: #4bdfff;
+}
+
+.middleBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+}
+
+.ethName {
+  width: 87px;
+  height: 20px;
+
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: 0.05em;
+
+  /* Text/Medium */
+
+  color: #a2a2a2;
+}
+
+.ethvalue {
+  width: 25px;
+  height: 20px;
+
+  /* 12/Title5Bold */
+
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  /* Text/High */
+
+  color: #fafafa;
+}
+
+.time {
+  width: 87px;
+  height: 20px;
+
+  /* 12/Title5Regular */
+
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  /* Text/Medium */
+
+  color: #a2a2a2;
+}
+
+.xp {
+  width: 47px;
+  height: 20px;
+
+  /* 12/Title5Regular */
+
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  /* Sem/Success/OnSurface */
+
+  color: #19ed7b;
+}

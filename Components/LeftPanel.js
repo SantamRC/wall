@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/leftpanel.module.css";
 
-function Index() {
+function LeftPanel() {
   const chips = [
     { name: "Art", active: true },
     { name: "Utility", active: true },
@@ -85,4 +85,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default LeftPanel;
