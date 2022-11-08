@@ -2,6 +2,16 @@ import Image from "next/image";
 import styles from "../styles/leftpanel.module.css";
 
 function Index() {
+  const chips = [
+    { name: "Art", active: true },
+    { name: "Utility", active: true },
+    { name: "PFP", active: false },
+    { name: "Metaverse", active: false },
+    { name: "Gaming", active: false },
+    { name: "PFP", active: false },
+    { name: "ens", active: false },
+  ];
+
   return (
     <div className={styles.leftPanel}>
       <div className={styles.topBox}>
@@ -45,6 +55,31 @@ function Index() {
             />
           ))}
         </div>
+      </div>
+
+      <div className={styles.chips}>
+        {chips.map((item) => (
+          <div
+            key={item.name}
+            className={item.active ? styles.chipItemActive : styles.chipItem}
+          >
+            <p
+              className={item.active ? styles.chipTextActive : styles.chipText}
+            >
+              {item.name}
+            </p>
+            <p
+              className={item.active ? styles.chipTextActive : styles.chipText}
+            >
+              12%
+            </p>
+          </div>
+        ))}
+      </div>
+
+      <div className={styles.subscribe}>
+        <p>Subscribe</p>
+        <Image src="/rightArrow.svg" height={20} width={20} />
       </div>
     </div>
   );

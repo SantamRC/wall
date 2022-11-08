@@ -186,3 +186,90 @@
   border-radius: 8px;
   margin: 5px;
 }
+
+.chips {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.chipItemActive {
+  box-sizing: border-box;
+
+  margin: 5px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  gap: 8px;
+
+  width: auto;
+  height: 28px;
+
+  /* Activities/Sold */
+
+  border: 1px solid #ffc148;
+  border-radius: 40px;
+}
+
+.chipTextActive {
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #ffc148;
+}
+
+.chipItem {
+  box-sizing: border-box;
+
+  margin: 5px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  gap: 8px;
+
+  width: auto;
+  height: 28px;
+
+  border: 1px solid #1a1a1a;
+  border-radius: 40px;
+}
+
+.chipText {
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #a2a2a2;
+}
+
+.subscribe {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 37px;
+  gap: 8px;
+
+  width: 260px;
+  height: 44px;
+
+  /* Text/Medium */
+
+  border: 1px solid #a2a2a2;
+  border-radius: 24px;
+}
